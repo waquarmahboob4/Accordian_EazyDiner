@@ -1,4 +1,4 @@
-# Accordian Eazy Diner
+# Accordion Eazy Diner
 
 
 ## Available Scripts
