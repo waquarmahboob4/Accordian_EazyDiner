@@ -21,10 +21,43 @@ function App() {
       content={<h1>hhsjsj</h1>} 
       activePanel={false}
     />}
+  
+
 
 </>
     ))
   }
+      {/* <Accordian key={`0`} title={'S1'} 
+        content={
+          <>
+            <h1>Hello</h1>
+            {
+              Array(4).fill(4).map(() => {
+                return(
+                  <img src='https://source.unsplash.com/random/?Cryptocurrency&1' alt='r'/>
+                )
+              })
+            }
+          </>
+        } 
+        activePanel={true}
+      />
+
+    <Accordian key={`1`} title={'S2'} 
+        content={
+          <>
+            <h1>Hello</h1>
+            {
+              Array(4).fill(4).map(() => {
+                return(
+                  <img src='https://source.unsplash.com/random/?Cryptocurrency&1' alt='r'/>
+                )
+              })
+            }
+          </>
+        } 
+        activePanel={false}
+      /> */}
       
     </div>
     </div>
