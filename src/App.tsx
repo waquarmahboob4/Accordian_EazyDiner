@@ -27,7 +27,7 @@ function App() {
 </>
     ))
   }
-      {/* <Accordian key={`0`} title={'S1'} 
+      <Accordian key={`0`} title={'S1'} 
         content={
           <>
             <h1>Hello</h1>
@@ -57,7 +57,7 @@ function App() {
           </>
         } 
         activePanel={false}
-      /> */}
+      />
       
     </div>
     </div>
