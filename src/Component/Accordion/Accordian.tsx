@@ -5,7 +5,7 @@ export const Accordion = ({
   setActiveList,
   activeList,
 }: any) => {
-  const changeActivePanel = (e: any) => {
+  const changeActivePanel = () => {
     activeList.includes(`${id}`) ? setActiveList([]) : setActiveList([`${id}`]);
   };
 

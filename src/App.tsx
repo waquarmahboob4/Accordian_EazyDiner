@@ -7,13 +7,13 @@ import "./App.css";
 function App() {
   const [activeList, setActiveList] = useState<Array<string>>(["0"]);
 
-  console.log(Data[0].content);
   return (
     <div className="accordion">
 
-      
+
       {Data.map((data, index) => (
         <Accordian
+          key={index}
           id={`${index}`}
           title={data.title}
           setActiveList={setActiveList}
